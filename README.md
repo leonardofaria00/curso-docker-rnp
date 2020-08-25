@@ -14,5 +14,11 @@ Docker provides tooling and a platform to manage the lifecycle of your container
 - The container becomes the unit for distributing and testing your application.
 - When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
 
+<br />
+<p align="center">
+  <a href="https://github.com/leonardofaria00/curso-docker-rnp">
+    <img src="https://docs.docker.com/engine/images/engine-components-flow.png" alt="Logo">
+  </a>
+  
 Reference:
 [Docker](https://docs.docker.com/)
