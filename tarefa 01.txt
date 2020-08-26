@@ -6,7 +6,6 @@
         - Expor a porta do container | EXPOSE 80
         - Mapear o HOST com o container através da tag -p 80:80
 
-
 2. Dockerfile comando 5:
     Segue Dockerfile em anexo.
 
