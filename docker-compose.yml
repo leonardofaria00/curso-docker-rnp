@@ -3,10 +3,8 @@ version: "3"
 services:
   web:
     build: .
-
     ports:
       - "5000:5000"
-
     environment:
       - "FLASK_ENV=development"
 
@@ -16,3 +14,10 @@ services:
 
   redis:
     image: "redis:alpine"
+    volumes:
+      - "redis:/data"
+
+    command: ["redis-server", "--appendonly", "yes"]
+
+volumes:
+  redis:
