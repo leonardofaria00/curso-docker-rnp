@@ -8,6 +8,6 @@
     O banco de dados Redis manteve os dados de request em memória.
 
 13. Salve o arquivo app.py, volte ao navegador e atualize a página. O que aconteceu?
-    
+        Segue em anexo.
 
 Questionário: https://drive.google.com/drive/folders/1y-CPmO2ywzYA3hU4hQGSO5rb6h_i6ukk
