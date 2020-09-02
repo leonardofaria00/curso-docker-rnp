@@ -1,0 +1,12 @@
+POSTAR COMO RESPOSTA:
+
+1- Os arquivos dockerfile sem e com multi stage build
+
+
+2- Resposta comando 15
+
+
+3- Resposta comando 23
+    
+
+Questionário: https://drive.google.com/drive/folders/1y-CPmO2ywzYA3hU4hQGSO5rb6h_i6ukk
