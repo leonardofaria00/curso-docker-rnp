@@ -5,7 +5,7 @@
     docker-compose down
 
 8. Execute novamente o ambiente, acesse o navegador da VM (http:127.0.0.1:5000) e faça o refresh. O que aconteceu?
-    Voltou a acontecer a mesma coisa do exercício 5.
+    O banco de dados Redis manteve os dados de request em memória.
 
 13. Salve o arquivo app.py, volte ao navegador e atualize a página. O que aconteceu?
     
