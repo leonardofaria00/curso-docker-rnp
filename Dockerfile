@@ -16,7 +16,7 @@ ENV FLASK_RUN_HOST 0.0.0.0
 RUN apk add --no-cache gcc musl-dev linux-headers
 
 # adds files from your Docker client’s current directory.
-COPY ./app/requirements.txt requirements.txt
+COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
