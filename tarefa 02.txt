@@ -1,0 +1,12 @@
+5. Execute o comando para criar e executar o ambiente?
+    Imprime: "Olá Mundo! Eu fui visto 1 vezes."
+
+7. Execute o comando para destruir o ambiente criado anteriormente.
+    docker-compose down
+
+8. Execute novamente o ambiente, acesse o navegador da VM (http:127.0.0.1:5000) e faça o refresh. O que aconteceu?
+    Voltou a acontecer a mesma coisa do exercício 5.
+
+13. Salve o arquivo app.py, volte ao navegador e atualize a página. O que aconteceu?
+    
+
