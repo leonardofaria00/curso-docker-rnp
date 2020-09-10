@@ -1,0 +1,43 @@
+07) Verifique se o service está disponível:
+
+kubectl get svc
+
+NAME            TYPE       CLUSTER-IP    EXTERNAL-IP      PORT(S)         AGE
+kubernetes   ClusterIP     10.96.0.1      <none>          443/TCP         17h
+my-service   NodePort      10.96.9.63     <none>          80:30080/TCP    17h
+
+15)  Verifique se o service está disponível:
+
+kubectl get ingress
+
+NAME              CLASS    HOSTS              ADDRESS      PORTS   AGE
+example-ingress   <none>   hello-world.info   172.17.0.3   80      17h
+
+20)  Verifique se o replica set está disponível:
+
+kubectl get rs
+
+NAME                            DESIRED   CURRENT   READY   AGE
+nginx-deployment-5b6f47948      10        10        10      17h
+nginx-deployment-5bf87f5f59      0        0         0       15h
+
+25) Verifique se o deployment está disponível:
+
+kubectl get deploy
+
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+nginx-deployment   10/10   10           10          17h
+
+31) Para visualizar o rolling update:
+
+kubectl rollout status -w deployment/nginx-deployment
+
+deployment "nginx-deployment" successfully rolled out
+
+44) Verifique se o pvc foi criado:
+
+kubectl get pvc
+
+NAME            STATUS   VOLUME           CAPACITY   ACCESS MODES   STORAGECLASS   AGE
+task-pv-claim   Bound    task-pv-volume   10Gi       RWO            manual         163m
+    
